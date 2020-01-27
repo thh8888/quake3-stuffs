@@ -1,4 +1,4 @@
-# quake3-config
+# Quake 3 Server Stuffs
 
 Setting up a server:
 -------------------
