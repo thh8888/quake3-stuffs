@@ -13,6 +13,8 @@ $ screen -d -m /usr/lib/ioquake3/ioq3ded +exec server.cfg +exec maps.cfg
 
 That's it.  You should be able to connect to it via the Public IP assigned by Amazon.
 
+**To-Do: Instead of using this AMI image, I will put together a Chef Solo recipe to set up all the required packages (except for pak0.pk3) from the base Debian image.
+
 
 Getting Logs Statistics:
 -----------------------
